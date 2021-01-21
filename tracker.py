@@ -25,7 +25,7 @@ def check_price():
   
   converted_price = float(price[0:3])
   print(converted_price)
-  if(converted_price < 20000):
+  if(converted_price < 300):
     send_mail()
 
 
